@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class levantouRequest extends StringRequest {
 
-    private static final String REGISTER_LOGIN_URL = "http://jortec18app.neec-fct.com/levantou.php";
+    private static final String REGISTER_LOGIN_URL = "https://jortec18app.neec-fct.com/jortec2019/levantou.php";
     private Map<String,String> params;
 
     public levantouRequest(String email,int estado,Response.Listener<String> listener){

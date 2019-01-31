@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class infoRequest extends StringRequest {
 
-    private static final String REGISTER_LOGIN_URL = "http://jortec18app.neec-fct.com/pica.php";
+    private static final String REGISTER_LOGIN_URL = "https://jortec18app.neec-fct.com/jortec2019/pica.php";
     private Map<String,String> params;
 
     public infoRequest(String email,Response.Listener<String> listener){

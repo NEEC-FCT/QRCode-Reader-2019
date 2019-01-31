@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class entrouRequest extends StringRequest {
 
-    private static final String REGISTER_LOGIN_URL = "http://jortec18app.neec-fct.com/entrou.php";
+    private static final String REGISTER_LOGIN_URL = "https://jortec18app.neec-fct.com/jortec2019/entrou.php";
     private Map<String,String> params;
 
     public entrouRequest(String email,int estado,Response.Listener<String> listener){
